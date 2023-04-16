@@ -15,11 +15,11 @@ export const Qualification = () => {
         <div className="qualification__tabs">
 
           <div className={toggleState === 1 ? "qualification__button  button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(1)}>
-            <i className="uil uil-graduation-cap qualification__icon"></i> Eduaction
+            <i className="uil uil-briefcase-alt qualification__icon"></i>  Experience
           </div>
 
           <div className={toggleState === 2 ? "qualification__button qualification__active  button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
-            <i className="uil uil-briefcase-alt qualification__icon"></i>Experience
+             <i className="uil uil-graduation-cap qualification__icon"></i>Eduaction
           </div>
 
         </div>

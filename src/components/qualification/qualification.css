@@ -12,13 +12,15 @@
     color: var(--title-color);
     margin: 0 var(--mb-1);
     cursor: pointer;
+    color: #fff;
 }
 .qualification__button:hover {
-    color: var(--title-color-dark);
+    color: #748CAB;
 }
 .qualification__icon{
     font-size: 1.8rem;
     margin-right: var(--mb-0-25);
+    color: #fff;
 }
 .qualification__active{
     color: var(--title-color-dark);
@@ -42,11 +44,16 @@
 .qualification__title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    color: #748CAB;
 }
 .qualification__subtitle{
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    color: #fff;
+}
+.qualification__calender{
+    color: #00FFFF;
 }
 .qualification__rounder{
     display: inline-block;

@@ -9,6 +9,7 @@
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
+    color: #fff;
 }
 .contact__info{
     display: grid;
@@ -69,7 +70,7 @@
     height: 100%;
     border: 2px solid rgba(0, 0, 0, 0.3);
     background: none;
-    color: var(--text-color);
+    color: #fff;
     outline: none;
     border-radius: 0.75rem;
     padding: 1.5rem;
@@ -81,7 +82,7 @@
     left: 1.25em;
     font-size: var(--smaller-font-size);
     padding: 0.25rem;
-    background-color: var(--body-color);
+    color: #00FFFF;
     z-index: 10;
 }
 .contact__form-area{
